@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+<h2>Please signup here !!!</h2>
+<form action="#" method="post">
+    <label for="username"  >Enter UserName:</label><br>
+    <input type="text" style="width: 100%;"  id="username" name="username" required> <br>
+    <label for="password">Enter Password:</label><br>
+    <input type="password" style="width: 100%;"  id="password" name="password" required> <br>
+    <label for="confirm_password">Confirm Password:</label><br>
+    <input type="password" style="width: 100%;"  id="confirm_password" name="confirm_password" required><br>
+    <label for="gender">Select Gender:</label><br>
+    <select id="gender" name="gender" style="width: 100%;" >
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other" >Other</option>
+    </select>
+
+
+    <br>
+    <label for="mobile_number">Enter Mobile Number:</label>
+    <br><input type="text" style="width: 100%;"   id="mobile_number" name="mobile_number" required>
+    <br>
+    <label for="dob">Enter DOB:</label><br>
+    <input type="date" id="dob" name="dob" required style="width: 100%"> <br>
+    <label for="address">Enter Address:</label><br>
+    <textarea id="address" style="width: 100%;"   name="address" rows="4" columns="500"  required></textarea>
+    <br>
+    <label for="qualification">Select Qualification:</label><br>
+    <select id="qualification" name="qualification" style="width: 100%;" >
+        <option value="bachelors">Bachelors</option>
+        <option value="masters">Masters</option>
+        <option value="phd">PhD</option>
+    </select>
+    <br>
+    <label for="skills">Choose Skills:</label><br>
+  <input type="text" id="skills" style="width: 100%;"  name="skills" required>
+    <br>
+
+<lable for "Preferdshif">preferedshift:</lable><br>
+ <select id="Preferedshift" name="Preferedshift" style="width: 100%;" >
+    <label for="shift">Preferred Shift:</label>  <br>
+    <option value="Dayshift">Dayshift</option>
+    <option value="Nightshift">Nightshift</option>
+  </select><br>
+    <label for="Resume">Upload your Resume:</label><br>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+    <br>
+    <input for="long_label" type="submit" style="width: 100%;"  value="Register">
+<br>
+<input type="submit" style="width: 100%;"  value="Reset">
+</form>
+
+</body>
+</html>
